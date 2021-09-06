@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.todo-title {
+  cursor: pointer;
+}
+
+.completed-todo {
+  text-decoration: line-through;
+}
+
+.tab-list > span {
+  padding: 5px 8px;
+  border: 1px solid #0dcaf0;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.tab-list > span.active {
+  background-color: #0dcaf0;
+  color: #fff;
+}
