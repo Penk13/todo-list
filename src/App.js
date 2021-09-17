@@ -110,7 +110,7 @@ class App extends React.Component {
     }
   };
   handleDelete = (item) => {
-    axios.delete(`api/tasks/${item.id}`).then((res) => this.refreshList());
+    axios.delete(`api/tasks/${item.id}/`).then((res) => this.refreshList());
   };
   editItem = (item) => {
     this.setState({ activeItem: item, modal: !this.state.modal });
